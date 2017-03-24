@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/w01"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spaceTopBig"
+        android:text="QQ是一种生活方式"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:onClick="startAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/guide_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spaceTopBig"
+        android:textSize="@dimen/btnSize"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

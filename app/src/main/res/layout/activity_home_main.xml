@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frag_home"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"/>
+
+    <RadioGroup
+        android:id="@+id/rg_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/rb_msg_bg"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="消息"
+            android:textSize="9sp" />
+
+        <RadioButton
+            android:id="@+id/rb_contact"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/rb_contact_bg"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="联系人"
+            android:textSize="9sp" />
+
+        <RadioButton
+            android:id="@+id/rb_zone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/rb_zone_bg"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="动态"
+            android:textSize="9sp" />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
